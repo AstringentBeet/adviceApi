@@ -1,0 +1,32 @@
+:root{
+    --darkBlue: hsl(218, 23%, 16%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --grayishBlue: hsl(217, 19%, 24%);
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+}
+
+/***** MAIN CONTENT *****/
+#advice--button{
+    background: url("../../images/icon-dice.svg");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 1280px) {
+
+    #advice--text{
+        height: 22px;
+        width: fit-content;
+    }
+
+    #advice--button{
+        height: 64px;
+        width: 64px;
+    }
+
+}

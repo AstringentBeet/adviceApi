@@ -1,0 +1,87 @@
+/*****  TABLE OF CONTENTS
+
+ *****  Files:
+            1.) main.css – as the name implies, 
+            carries the bulk of the layout for 
+            the whole page, regardless of the viewing
+            device. Besides text.css, each subsequent 
+            css file is catered to each viewing devices 
+            needs (font-size, spacing, etc).
+
+            2.)text.css – serves as a custom text layout for
+            the whole page, preventing excessive need to adjust
+            the font size for the page.
+
+            3.) mobile.css; desktop.css – files made for devices
+            with a width of at most 430px (for mobile platforms),
+            and at least 1440px (for desk/laptop platforms).
+
+ *****  Both sections:
+            self-descriptive, but covers both sections of the page
+            (survey, and post-survey "thank you" section).
+
+ *****  Survey section:
+            Covers only the survey section of the page.
+
+ ***** 'Thank you' section:
+            Covers only the "thank you" section of the page.
+
+ ***** Keyframes:
+            A very brief, but vital component in the page's fluidity
+            (in terms of animation). Experimental and subject to change.
+*****/
+
+/* specific h1-h6 styling details:*/
+
+body {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em; 
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold
+}
+
+h2 {
+    display: block; 
+    font-size: 1.5em;  
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold
+}
+
+h3 {
+    display: block; 
+    font-size: 1.17em; 
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold;
+}
+
+h4 {
+    display: block; 
+    font-size: 1em; 
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold;
+}
+
+h5 {
+    display: block; 
+    font-size: .83em; 
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold;
+}
+
+h6 {
+    display: block; 
+    font-size: .67em; 
+    margin-left: 0; 
+    margin-right: 0; 
+    font-weight: bold;
+}
