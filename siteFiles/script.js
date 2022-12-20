@@ -23,3 +23,5 @@ function makeAdvice() {
     xhr.open('GET', 'https://api.adviceslip.com/advice/'+adviceRandom(1, 224) , true);
     xhr.send();
 }
+
+//random update test.
